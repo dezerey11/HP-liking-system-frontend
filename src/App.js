@@ -10,7 +10,8 @@ export const GlobalCtx = React.createContext(null);
 
 function App() {
   const [gState, setGState] = React.useState({
-    url: "http://localhost:3000/",
+    // url: "http://localhost:3000/",
+    url: "https://hp-liking-system-backend.herokuapp.com/",
     token: null,
     ready: false,
   });
